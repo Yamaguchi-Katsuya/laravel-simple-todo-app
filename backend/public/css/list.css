@@ -1,0 +1,26 @@
+.list-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.list-head .new-btn {
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+}
+.operation-btn-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.operation-btn {
+    border: 1px solid #000;
+    padding: 2px 10px;
+}
+.operation-btn:hover {
+    background-color: ghostwhite;
+}

@@ -1,0 +1,38 @@
+.form-container {
+    width: 80%;
+    margin: 30px auto 0;
+    text-align:center;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 40px 0;
+    color: #000;
+}
+.form-container .form-content {
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+.form-container .form-content label {
+    width: 10%;
+    text-align: left;
+}
+.form-container .form-content input, textarea, select {
+    width: 70%;
+}
+.form-container input[type="submit"] {
+    width: 50%;
+    text-align: center;
+    padding: 5px 0;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+.form-container input[type="submit"]:hover {
+    background-color: ghostwhite;
+}
+.form-container .alert {
+    width: 70%;
+    margin: -15px auto 15px;
+    color: #dc3545;
+}

@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+  app:
+    build: ./infra/php
+    volumes:
+      - ./backend:/work
+  web:
+    build: ./infra/nginx
+    ports:
+      - 8080:80
+    volumes:
+      - ./backend:/work
+  db:
+    build: ./infra/mysql
+    ports:
+      - 33060:3306
+    volumes:
+      - db-store:/var/lib/mysql
+  mail:
+    image: mailhog/mailhog
+    ports:
+      - 8025:8025
+volumes:
+  db-store:
