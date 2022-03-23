@@ -5,6 +5,8 @@
     position: relative;
     margin-bottom: 15px;
     font-size: 20px;
+    width: 95%;
+    margin: 0 auto;
 }
 .list-head .new-btn {
     position: absolute;
